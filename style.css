@@ -1,0 +1,84 @@
+.pages{
+width: 200px; 
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 0 auto 30px;  
+display: flex;
+text-align: center;
+border-radius: 10px;
+border: 1px solid rgb(127, 245, 123);
+}
+.pages a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 24px;
+    color: blue;
+}
+.products{
+    background-color: aquamarine;
+}
+.product{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.product div{
+    align-content: space-between;
+    background-color: rgb(118, 228, 255);
+    margin-bottom: 10px;
+}
+.product div:hover{
+    border-color: rgb(214, 214, 252);
+}
+.update-btn{
+    background-color: blue;
+    border-radius: 5px;
+    border: none;
+    color: rgb(255, 255, 255);
+}
+.product div img{
+    height: 150px;
+}
+.product div input{
+    background-color: rgb(253, 131, 131);
+    border-radius: 5px;
+    width: 150px;
+    margin-right: 5px;
+    border: none;
+    color: bisque;
+}
+
+.card-price{
+    background-color: yellow;
+}
+
+.users{
+  background-color: aqua;
+}
+.user div{
+  height: 150px;
+}
+.user div img{
+ height: 100%;
+}
+.goBack-div {
+    width: 300px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 30px;  
+    display: flex;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid rgb(127, 245, 123);
+}
+.goBack-div a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 24px;
+    color: blue;
+}
+
